@@ -1,13 +1,14 @@
 import sys
 import os
 import pytest
-
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "books")))
-
 from bestselling_books_stats_generator import BestsellingBooksStatsGenerator
 from books_csv_parser import BooksCSVParser
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> unittest
 fiction_genre = "Fiction"
 non_fiction_genre = "Non Fiction"
 ranked_year = 2018
